@@ -1,0 +1,54 @@
+{
+    "name": "PlayerControl",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "16cada27-610a-4780-9a47-62715a9e2e7f",
+            "actions": [
+                {
+                    "name": "ClickL",
+                    "type": "Button",
+                    "id": "df2e2c09-cb77-4e5c-a24b-0a70f67365a9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ClickR",
+                    "type": "Button",
+                    "id": "ec412a22-2260-477f-b953-7fd114d5a542",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "809a9d08-aa7b-48b5-a2ba-756263c421bc",
+                    "path": "<Mouse>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b99bcfe2-5f1c-44a4-b25a-fd3297108d79",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
